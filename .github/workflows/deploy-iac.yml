@@ -24,4 +24,3 @@ jobs:
           az deployment group create \
             --resource-group Kas-RG3 \
             --template-file webapp.bicep
-            
