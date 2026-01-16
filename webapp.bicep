@@ -4,7 +4,7 @@ param location string = 'australiaeast'
 param appServicePlanName string = 'kas-serviceplan'
 
 @description('Web App name (must be lowercase and globally unique)')
-param webAppName string = 'kas-webappdemo'
+param webAppName string = 'kas-webapp-ci'
 
 resource appServicePlan 'Microsoft.Web/serverfarms@2022-03-01' = {
   name: appServicePlanName
